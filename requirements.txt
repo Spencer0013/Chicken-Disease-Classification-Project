@@ -1,19 +1,18 @@
-tensorflow
-pandas
+tensorflow==2.13.0
+pandas 
 dvc
 notebook
 numpy
 matplotlib
 seaborn
-python-box==6.0.2
+python-box==5.4.1
 pyYAML
 tqdm
-ensure ==1.0.2
+ensure==1.0.2
 joblib
-types-pyYAML
+types-PyYAML
 scipy
 streamlit
-box
-
-
+ipykernel
 #-e .
+

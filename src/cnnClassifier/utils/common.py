@@ -5,7 +5,11 @@ from src.cnnClassifier import logger
 import json
 import joblib
 from ensure import ensure_annotations
-from box import Box  # changed here from 'box' to 'Box'
+from box.box import Box
+# correct
+from box import BoxList
+
+
 from pathlib import Path
 from typing import Any
 import base64
@@ -29,7 +33,7 @@ def read_yaml(path_to_yaml: Path) -> Box:  # changed return type hint to 'Box'
         with open(path_to_yaml) as yaml_file:
             content = yaml.safe_load(yaml_file)
             logger.info(f"yaml file: {path_to_yaml} loaded successfully")
-            return Box(content)  # changed here from 'box' to 'Box'
+            return Box(content, conversion_box=False)  # changed here from 'box' to 'Box'
     except BoxValueError:
         raise ValueError("yaml file is empty")
     except Exception as e:
