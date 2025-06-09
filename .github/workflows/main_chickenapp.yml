@@ -30,7 +30,7 @@ jobs:
       uses: docker/build-push-action@v3
       with:
         push: true
-        tags: chickenapp.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_814e060884b14679baa7389e2b9d5408 }}/chicken:${{ github.sha }}
+        tags: 'chickenapp.azurecr.io/chicken:${{ github.sha }}'
         file: ./Dockerfile
 
   deploy:
@@ -48,4 +48,5 @@ jobs:
         app-name: 'Chickenapp'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_274c464989f046a2b59409e1aa7b3f90 }}
-        images: 'chickenapp.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_814e060884b14679baa7389e2b9d5408 }}/chicken:${{ github.sha }}'
+        images: 'chickenapp.azurecr.io/chicken:${{ github.sha }}'
+
