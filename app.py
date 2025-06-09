@@ -1,3 +1,9 @@
+import os
+import sys
+print("Working dir:", os.getcwd())
+print("Sys.path:", sys.path)
+
+
 import streamlit as st
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
