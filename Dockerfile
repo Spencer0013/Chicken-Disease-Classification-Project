@@ -1,19 +1,19 @@
-# Use the official Python slim image
 FROM python:3.10-slim
 
-# 1) Set a working directory
+# Set working directory inside the container
 WORKDIR /app
 
-# 2) Copy your requirements and install
-COPY requirements.txt .
+# ❗ Copy everything first (including setup.py)
+COPY . .
+
+# Install Python dependencies (includes -e .)
 RUN pip install --upgrade pip \
  && pip install --no-cache-dir -r requirements.txt
 
-# 3) Copy the rest of your code
-COPY . .
-
-# 4) Expose the port Streamlit runs on
+# Expose Streamlit's default port
 EXPOSE 8501
 
-# 5) Default command to run your app
+# Start Streamlit app
 CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
+
+

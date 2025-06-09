@@ -14,5 +14,5 @@ types-PyYAML
 scipy
 streamlit
 ipykernel
-#-e .
+-e .
 
