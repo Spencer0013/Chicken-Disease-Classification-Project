@@ -2,7 +2,7 @@ import streamlit as st
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 import numpy as np
-from cnnClassifier.utils.common import read_yaml, create_directories
+from src.cnnClassifier.utils.common import read_yaml, create_directories
 from pathlib import Path
 
 # Load configuration and parameters
