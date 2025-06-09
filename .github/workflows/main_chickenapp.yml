@@ -31,7 +31,8 @@ jobs:
       with:
         push: true
         tags: 'chickenapp.azurecr.io/chicken:${{ github.sha }}'
-        file: Chicken-Disease-Classification-Project\Dockerfile
+        file: ./Dockerfile
+
 
   deploy:
     runs-on: ubuntu-latest
