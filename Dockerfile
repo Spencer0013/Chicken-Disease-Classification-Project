@@ -4,11 +4,11 @@ FROM python:3.10-slim
 WORKDIR /app
 
 # ❗ Copy everything first (including setup.py)
-COPY . .
+COPY . /app
 
 # Install Python dependencies (includes -e .)
 RUN pip install --upgrade pip \
- && pip install --no-cache-dir -r requirements.txt
+ && pip install  -r requirements.txt
 
 # Expose Streamlit's default port
 EXPOSE 8501
