@@ -23,27 +23,20 @@ This production-grade MLOps solution classifies chicken diseases from fecal imag
 - **Model Optimization**: Layer freezing, data augmentation, learning rate scheduling
 - **Reproducible Experiments**: DVC-tracked parameters and metrics
 
-## 🧠 Technical Architecture
-```mermaid
-graph TD
-    A[Data Ingestion] -->|DVC| B[Base Model Prep]
-    B -->|TensorFlow| C[Model Training]
-    C -->|Callbacks| D[Model Evaluation]
-    D -->|scores.json| E[Prediction API]
-    E -->|Streamlit| F[Azure Deployment]
 
-    🛠️ Technology Stack
-Category	Technologies
-Deep Learning	TensorFlow, Keras, VGG16, Image Augmentation
-MLOps	DVC, MLflow, Hyperparameter Tracking
-Web Framework	Streamlit
+##  🛠️ Technology Stack
+Category	        Technologies
+Deep Learning	    TensorFlow, Keras, VGG16, Image Augmentation
+MLOps	            DVC, MLflow, Hyperparameter Tracking
+Web Framework	    Streamlit
 Cloud Deployment	Azure Web Apps, Azure Container Registry, GitHub Actions
-Data Processing	Pandas, NumPy, OpenCV
-Configuration	PyYAML, python-box
-Testing	Pytest, TensorFlow Model Validation
+Data Processing	   Pandas, NumPy, OpenCV
+Configuration	   PyYAML, python-box
+Testing	           Pytest TensorFlow Model Validation
 
 
-Chicken-Disease-Classification-Project/
+## Chicken-Disease-Classification-Project
+
 ├── artifacts/               # DVC-tracked outputs
 │   ├── data_ingestion/      # Raw and processed images
 │   ├── prepare_base_model/  # VGG16 base models
@@ -53,39 +46,39 @@ Chicken-Disease-Classification-Project/
 │   └── params.yaml          # Model hyperparameters
 ├── src/
 │   └── cnnClassifier/
-│       ├── components/      # Pipeline components
+│       ├── components/                  # Pipeline components
 │       │   ├── data_ingestion.py
 │       │   ├── prepare_base_model.py
 │       │   ├── prepare_callbacks.py
 │       │   ├── training.py
 │       │   └── evaluation.py
-│       ├── pipeline/        # DVC stage implementations
+│       ├── pipeline/                    # DVC stage implementations
 │       │   ├── stage_01_data_ingestion.py
 │       │   ├── stage_02_prepare_base_model.py
 │       │   ├── stage_03_training.py
 │       │   └── stage_04_evaluation.py
-│       ├── utils/           # Helper functions
-│       ├── entity/          # Configuration schemas
-│       └── constants/       # Project constants
-├── tests/                   # Unit and integration tests
-├── .github/workflows/       # CI/CD pipelines
-├── research/                # Experimental notebooks
-├── app.py                   # Streamlit prediction interface
-├── predict.py               # Prediction pipeline
-├── main.py                  # DVC pipeline executor
-├── dvc.yaml                 # DVC pipeline definition
-├── Dockerfile               # Container configuration
-├── requirements.txt         # Python dependencies
-└── README.md                # Project documentation
+│       ├── utils/                      # Helper functions
+│       ├── entity/                     # Configuration schemas
+│       └── constants/                  # Project constants
+├── tests/                              # Unit and integration tests
+├── .github/workflows/                  # CI/CD pipelines
+├── research/                           # Experimental notebooks
+├── app.py                              # Streamlit prediction interface
+├── predict.py                          # Prediction pipeline
+├── main.py                             # DVC pipeline executor
+├── dvc.yaml                            # DVC pipeline definition
+├── Dockerfile                          # Container configuration
+├── requirements.txt                    # Python dependencies
+└── README.md                           # Project documentation
 
-📈 Performance Metrics
+  ## 📈 Performance Metrics
 
  {
     "loss": 0.5259,
     "accuracy": 0.9483
 }
 
- Installation
+  ## Installation
 
  # Clone repository
 git clone https://github.com/Spencer0013/Chicken-Disease-Classification-Project.git
@@ -113,7 +106,7 @@ dvc repro
 # Or execute stages individually
 python main.py
 
-☁️ Azure Deployment
+## ☁️ Azure Deployment
 
 The CI/CD pipeline automates:
 
@@ -123,11 +116,12 @@ Container registry pushes to ACR
 
 Zero-downtime deployments to Azure Web Apps
 
-Manual Deployment:
+# Manual Deployment:
 docker build -t chicken-disease-classifier .
 docker run -p 8501:8501 chicken-disease-classifier
 
-📝 Portfolio Highlights
+## 📝 Portfolio Highlights
+
 End-to-End MLOps Implementation: From data ingestion to deployment
 
 Production Readiness: Dockerized application with health checks
@@ -140,5 +134,5 @@ Performance Optimization: 94.83% validation accuracy
 
 Modular Design: Component-based architecture
 
-📜 License
+## 📜 License
 This project is licensed under the MIT License - see the LICENSE file for details.
