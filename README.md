@@ -43,16 +43,14 @@ This production-grade MLOps solution classifies chicken diseases from fecal imag
     "accuracy": 0.9483
 }
 
-  # Installation
-
  # Clone repository
 git clone https://github.com/Spencer0013/Chicken-Disease-Classification-Project.git
 cd Chicken-Disease-Classification-Project
 
 # Create virtual environment
-python -m venv chicken-env
-source chicken-env/bin/activate  # Linux/Mac
-chicken-env\Scripts\activate    # Windows
+- python -m venv chicken-env
+- source chicken-env/bin/activate  # Linux/Mac
+- chicken-env\Scripts\activate    # Windows
 
 # Install dependencies
 pip install -r requirements.txt
