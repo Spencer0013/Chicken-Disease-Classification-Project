@@ -25,60 +25,25 @@ This production-grade MLOps solution classifies chicken diseases from fecal imag
 
 
 ##  🛠️ Technology Stack
-Category	        Technologies
-Deep Learning	    TensorFlow, Keras, VGG16, Image Augmentation
-MLOps	            DVC, MLflow, Hyperparameter Tracking
-Web Framework	    Streamlit
-Cloud Deployment	Azure Web Apps, Azure Container Registry, GitHub Actions
-Data Processing	   Pandas, NumPy, OpenCV
-Configuration	   PyYAML, python-box
-Testing	           Pytest TensorFlow Model Validation
+Category	              Technologies
+Deep Learning	          TensorFlow, Keras, VGG16, Image Augmentation
+MLOps	                  DVC, MLflow, Hyperparameter Tracking
+Web Framework	          Streamlit
+Cloud Deployment	      Azure Web Apps, Azure Container Registry, GitHub Actions
+Data Processing	          Pandas, NumPy, OpenCV
+Configuration	          PyYAML, python-box
+Testing	                  Pytest TensorFlow Model Validation
 
 
-## Chicken-Disease-Classification-Project
 
-├── artifacts/               # DVC-tracked outputs
-│   ├── data_ingestion/      # Raw and processed images
-│   ├── prepare_base_model/  # VGG16 base models
-│   └── training/            # Trained model files
-├── config/
-│   ├── config.yaml          # Path configurations
-│   └── params.yaml          # Model hyperparameters
-├── src/
-│   └── cnnClassifier/
-│       ├── components/                  # Pipeline components
-│       │   ├── data_ingestion.py
-│       │   ├── prepare_base_model.py
-│       │   ├── prepare_callbacks.py
-│       │   ├── training.py
-│       │   └── evaluation.py
-│       ├── pipeline/                    # DVC stage implementations
-│       │   ├── stage_01_data_ingestion.py
-│       │   ├── stage_02_prepare_base_model.py
-│       │   ├── stage_03_training.py
-│       │   └── stage_04_evaluation.py
-│       ├── utils/                      # Helper functions
-│       ├── entity/                     # Configuration schemas
-│       └── constants/                  # Project constants
-├── tests/                              # Unit and integration tests
-├── .github/workflows/                  # CI/CD pipelines
-├── research/                           # Experimental notebooks
-├── app.py                              # Streamlit prediction interface
-├── predict.py                          # Prediction pipeline
-├── main.py                             # DVC pipeline executor
-├── dvc.yaml                            # DVC pipeline definition
-├── Dockerfile                          # Container configuration
-├── requirements.txt                    # Python dependencies
-└── README.md                           # Project documentation
-
-  ## 📈 Performance Metrics
+  # 📈 Performance Metrics
 
  {
     "loss": 0.5259,
     "accuracy": 0.9483
 }
 
-  ## Installation
+  # Installation
 
  # Clone repository
 git clone https://github.com/Spencer0013/Chicken-Disease-Classification-Project.git
@@ -95,7 +60,7 @@ pip install -r requirements.txt
 # Initialize DVC
 dvc init
 
- ## Running the Application
+ # Running the Application
  streamlit run app.py
 
  Executing MLOps Pipeline
