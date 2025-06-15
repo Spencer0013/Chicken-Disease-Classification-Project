@@ -1,6 +1,6 @@
 # 🐔 Chicken Disease Classification - End-to-End MLOps Solution
 
-[![Azure Deployment](https://img.shields.io/badge/Deployed%20on-Azure%20Web%20Apps-blue)](https://your-app.azurewebsites.net)
+[![Azure Deployment](https://img.shields.io/badge/Deployed%20on-Azure%20Web%20Apps-blue)](https://drive.google.com/file/d/17Z2CfxA1oRAweGsSEKo_LlSi9hbj76pS/view?usp=sharing)
 [![Model Accuracy](https://img.shields.io/badge/Accuracy-94.83%25-brightgreen)](scores.json)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
