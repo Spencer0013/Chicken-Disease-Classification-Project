@@ -193,4 +193,8 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 artifacts/*
+!artifacts/
+artifacts/training/*
+!artifacts/training/
 !artifacts/training/model.h5
+
