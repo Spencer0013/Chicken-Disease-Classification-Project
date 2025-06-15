@@ -44,8 +44,8 @@ This production-grade MLOps solution classifies chicken diseases from fecal imag
 }
 
  # Clone repository
-git clone https://github.com/Spencer0013/Chicken-Disease-Classification-Project.git
-cd Chicken-Disease-Classification-Project
+- git clone https://github.com/Spencer0013/Chicken-Disease-Classification-Project.git
+- cd Chicken-Disease-Classification-Project
 
 # Create virtual environment
 - python -m venv chicken-env
@@ -53,49 +53,49 @@ cd Chicken-Disease-Classification-Project
 - chicken-env\Scripts\activate    # Windows
 
 # Install dependencies
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 # Initialize DVC
-dvc init
+- dvc init
 
  # Running the Application
- streamlit run app.py
+ - streamlit run app.py
 
  Executing MLOps Pipeline
 
  # Run full DVC pipeline
-dvc repro
+- dvc repro
 
 # Or execute stages individually
-python main.py
+- python main.py
 
 ## ☁️ Azure Deployment
 
-The CI/CD pipeline automates:
+- The CI/CD pipeline automates:
 
-Docker image builds on code commits
+- Docker image builds on code commits
 
-Container registry pushes to ACR
+- Container registry pushes to ACR
 
-Zero-downtime deployments to Azure Web Apps
+- Zero-downtime deployments to Azure Web Apps
 
 # Manual Deployment:
-docker build -t chicken-disease-classifier .
-docker run -p 8501:8501 chicken-disease-classifier
+- docker build -t chicken-disease-classifier .
+- docker run -p 8501:8501 chicken-disease-classifier
 
 ## 📝 Portfolio Highlights
 
-End-to-End MLOps Implementation: From data ingestion to deployment
+- End-to-End MLOps Implementation: From data ingestion to deployment
 
-Production Readiness: Dockerized application with health checks
+- Production Readiness: Dockerized application with health checks
 
-Reproducible Workflows: DVC-tracked experiments
+- Reproducible Workflows: DVC-tracked experiments
 
-Cloud Integration: Azure deployment pipeline
+- Cloud Integration: Azure deployment pipeline
 
-Performance Optimization: 94.83% validation accuracy
+- Performance Optimization: 94.83% validation accuracy
 
-Modular Design: Component-based architecture
+- Modular Design: Component-based architecture
 
 ## 📜 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+- This project is licensed under the MIT License - see the LICENSE file for details.
