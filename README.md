@@ -25,14 +25,14 @@ This production-grade MLOps solution classifies chicken diseases from fecal imag
 
 
 ##  🛠️ Technology Stack
-**Category**	         :           Technologies
-**Deep Learning**	     :     TensorFlow, Keras, VGG16, Image Augmentation
-**MLOps**	             :    DVC, MLflow, Hyperparameter Tracking
-**Web Framework**	     :     Streamlit
-**Cloud Deployment**	 :     Azure Web Apps, Azure Container Registry, GitHub Actions
-**Data Processing**	   :       Pandas, NumPy, OpenCV
-**Configuration**	     :     PyYAML, python-box
-**Testing**	           :       Pytest TensorFlow Model Validation
+- **Category**	         :           Technologies
+- **Deep Learning**	     :     TensorFlow, Keras, VGG16, Image Augmentation
+- **MLOps**	             :    DVC, MLflow, Hyperparameter Tracking
+- **Web Framework**	     :     Streamlit
+- **Cloud Deployment**	 :     Azure Web Apps, Azure Container Registry, GitHub Actions
+- **Data Processing**	   :       Pandas, NumPy, OpenCV
+- **Configuration**	     :     PyYAML, python-box
+- **Testing**	           :       Pytest TensorFlow Model Validation
 
 
 
