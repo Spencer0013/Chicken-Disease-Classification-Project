@@ -153,9 +153,9 @@ if uploaded_file:
 - Error Handling: Graceful failure on invalid inputs
 
 
-  # Installation
+# Installation
 
- # Clone repository
+# Clone repository
 - git clone https://github.com/Spencer0013/Chicken-Disease-Classification-Project.git
 - cd Chicken-Disease-Classification-Project
 
