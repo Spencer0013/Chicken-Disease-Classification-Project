@@ -91,8 +91,7 @@ Brightness/Contrast adjustment
 - **Configuration**	     :     PyYAML, python-box
 - **Testing**	           :       Pytest TensorFlow Model Validation
 
-
-   ## Hyperparameters (params.yaml)
+## Hyperparameters (params.yaml)
 
    AUGMENTATION: True               # Enable data augmentation
 IMAGE_SIZE: [224, 224, 3]        # Input dimensions (compatible with VGG16)
@@ -103,14 +102,13 @@ CLASSES: 2                       # Binary classification
 WEIGHTS: imagenet                # Pre-trained weights
 LEARNING_RATE: 0.01              # SGD learning rate
 
-  # 📈 Performance Metrics
+# 📈 Performance Metrics
 
  {
     "loss": 0.5259,
     "accuracy": 0.9483
 }
 
-<<<<<<< HEAD
 # Validation Results:
 
 Accuracy: 94.83%
