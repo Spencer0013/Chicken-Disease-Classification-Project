@@ -80,8 +80,7 @@ Horizontal/Vertical flipping
 
 Brightness/Contrast adjustment
 
-Width/Height shifting (±20%)
-=======
+
 ##  🛠️ Technology Stack
 - **Category**	         :           Technologies
 - **Deep Learning**	     :     TensorFlow, Keras, VGG16, Image Augmentation
@@ -91,7 +90,6 @@ Width/Height shifting (±20%)
 - **Data Processing**	   :       Pandas, NumPy, OpenCV
 - **Configuration**	     :     PyYAML, python-box
 - **Testing**	           :       Pytest TensorFlow Model Validation
->>>>>>> 6d1b4dcbf50168b41db77b3d9fceeb71ab1829c1
 
 
    ## Hyperparameters (params.yaml)
