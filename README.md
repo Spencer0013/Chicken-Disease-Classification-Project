@@ -50,7 +50,6 @@ This production-grade MLOps solution classifies chicken diseases from fecal imag
 - Rolling Updates: Zero-downtime deployments
 
 
-<<<<<<< HEAD
 ## 🗂️ Dataset
 
 Binary Classes:
@@ -62,10 +61,10 @@ Binary Classes:
 # Key Statistics:
 
 Metric	Value
-Total images	390
-coccidiosis images	195 (50%)
-healthy images	195 (50%)
-Train/Validation/Test	70%/20%/10%
+- **Total images**	390
+- **coccidiosis images**	195 (50%)
+- **healthy images**	195 (50%)
+- **Train/Validation/Test**	70%/20%/10%
 
 # Preprocessing:
 
