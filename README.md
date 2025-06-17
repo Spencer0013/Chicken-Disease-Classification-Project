@@ -157,8 +157,6 @@ if uploaded_file:
 
   # Installation
 
-=======
->>>>>>> 6d1b4dcbf50168b41db77b3d9fceeb71ab1829c1
  # Clone repository
 - git clone https://github.com/Spencer0013/Chicken-Disease-Classification-Project.git
 - cd Chicken-Disease-Classification-Project
