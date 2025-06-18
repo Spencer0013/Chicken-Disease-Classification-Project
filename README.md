@@ -1,9 +1,20 @@
-🐔 Chicken Disease Classification: Binary Image Recognition (Coccidiosis vs. Healthy)
-https://img.shields.io/badge/Deployed%2520on-Azure%2520Web%2520Apps-blue
-https://img.shields.io/badge/Accuracy-94.83%2525-brightgreen
-https://img.shields.io/badge/License-MIT-green.svg
+# Chicken Disease Classification: Binary Image Recognition (Coccidiosis vs. Healthy)
 
-<div align="center"> <img src="https://drive.google.com/file/d/1ngPEyAuz6JKzWm2QqBQCIw6v4yaBcLqf/view?usp=sharing" alt="Chicken Disease Classification" width="800"> </div>
+[![Deployed on Azure Web Apps](https://img.shields.io/badge/Deployed%20on-Azure%20Web%20Apps-blue)]()
+[![Accuracy](https://img.shields.io/badge/Accuracy-94.83%25-brightgreen)]()
+[![License](https://img.shields.io/badge/License-MIT-green.svg)]()
+
+<div align="center"> 
+  <img src="https://drive.google.com/file/d/1ngPEyAuz6JKzWm2QqBQCIw6v4yaBcLqf/view?usp=sharing" alt="Chicken Disease Classification" width="800"> 
+</div>
+
+## Access the Web App
+**Deployed Application URL**:  
+`https://<your-app-name>.azurewebsites.net`  
+
+1. Visit the URL above (replace `<your-app-name>` with your actual Azure app name)
+2. Upload a chicken image
+3. Get instant classification: Healthy or Coccidiosis
 
 🚀 Project Overview
 This production-grade MLOps solution classifies chicken diseases from fecal images into two categories: Coccidiosis-infected or Healthy with 94.83% accuracy. Built with TensorFlow/Keras, it enables rapid, non-invasive disease detection for poultry farmers and veterinarians.
