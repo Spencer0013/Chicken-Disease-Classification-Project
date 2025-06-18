@@ -3,7 +3,7 @@ https://img.shields.io/badge/Deployed%2520on-Azure%2520Web%2520Apps-blue
 https://img.shields.io/badge/Accuracy-94.83%2525-brightgreen
 https://img.shields.io/badge/License-MIT-green.svg
 
-<div align="center"> <img src="https://example.com/project-banner.png" alt="Chicken Disease Classification" width="800"> </div>
+<div align="center"> <img src="https://drive.google.com/file/d/1ngPEyAuz6JKzWm2QqBQCIw6v4yaBcLqf/view?usp=sharing" alt="Chicken Disease Classification" width="800"> </div>
 
 🚀 Project Overview
 This production-grade MLOps solution classifies chicken diseases from fecal images into two categories: Coccidiosis-infected or Healthy with 94.83% accuracy. Built with TensorFlow/Keras, it enables rapid, non-invasive disease detection for poultry farmers and veterinarians.
