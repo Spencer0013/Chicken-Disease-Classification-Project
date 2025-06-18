@@ -1,8 +1,5 @@
 # Chicken Disease Classification: Binary Image Recognition (Coccidiosis vs. Healthy)
 
-
-
-## Project Demo
 <div align="center"> 
   <img src="https://drive.google.com/uc?export=view&id=1ngPEyAuz6JKzWm2QqBQCIw6v4yaBcLqf" alt="System Interface" width="800"> 
 </div>
