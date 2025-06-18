@@ -8,14 +8,6 @@
 📹 **[Watch Application Demo Video](https://drive.google.com/file/d/17Z2CfxA1oRAweGsSEKo_LlSi9hbj76pS/view?usp=sharing)**  
 *(Direct Google Drive link to recorded demonstration)*
 
-## Access the Web App
-🌐 **Deployed Application URL**:  
-`https://<your-app-name>.azurewebsites.net` *(replace with your actual Azure app name)*
-
-1. Visit the URL above (replace `<your-app-name>` with your actual Azure app name)
-2. Upload a chicken image
-3. Get instant classification: Healthy or Coccidiosis
-
 🚀 Project Overview
 This production-grade MLOps solution classifies chicken diseases from fecal images into two categories: Coccidiosis-infected or Healthy with 94.83% accuracy. Built with TensorFlow/Keras, it enables rapid, non-invasive disease detection for poultry farmers and veterinarians.
 
