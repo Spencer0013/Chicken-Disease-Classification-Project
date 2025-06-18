@@ -4,13 +4,18 @@
 [![Accuracy](https://img.shields.io/badge/Accuracy-94.83%25-brightgreen)]()
 [![License](https://img.shields.io/badge/License-MIT-green.svg)]()
 
+## Project Demo
 <div align="center"> 
-  <img src="https://drive.google.com/file/d/1ngPEyAuz6JKzWm2QqBQCIw6v4yaBcLqf/view?usp=sharing" alt="Chicken Disease Classification" width="800"> 
+  <img src="https://drive.google.com/uc?export=view&id=1ngPEyAuz6JKzWm2QqBQCIw6v4yaBcLqf" alt="System Interface" width="800"> 
 </div>
 
+## Video Demonstration
+📹 **[Watch Application Demo Video](https://drive.google.com/file/d/17Z2CfxA1oRAweGsSEKo_LlSi9hbj76pS/view?usp=sharing)**  
+*(Direct Google Drive link to recorded demonstration)*
+
 ## Access the Web App
-**Deployed Application URL**:  
-`https://<your-app-name>.azurewebsites.net`  
+🌐 **Deployed Application URL**:  
+`https://<your-app-name>.azurewebsites.net` *(replace with your actual Azure app name)*
 
 1. Visit the URL above (replace `<your-app-name>` with your actual Azure app name)
 2. Upload a chicken image
