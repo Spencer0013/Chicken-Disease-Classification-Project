@@ -1,8 +1,6 @@
 # Chicken Disease Classification: Binary Image Recognition (Coccidiosis vs. Healthy)
 
-[![Deployed on Azure Web Apps](https://img.shields.io/badge/Deployed%20on-Azure%20Web%20Apps-blue)]()
-[![Accuracy](https://img.shields.io/badge/Accuracy-94.83%25-brightgreen)]()
-[![License](https://img.shields.io/badge/License-MIT-green.svg)]()
+
 
 ## Project Demo
 <div align="center"> 
